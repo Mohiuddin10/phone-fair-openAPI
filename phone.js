@@ -1,1 +1,6 @@
-console.log('js connected');
+const loadPhones = async () => {
+    const res = await fetch('https://openapi.programming-hero.com/api/phones?search=iphone');
+    const data = await res.json();
+    const phone = data.data;
+    console.log(phone);
+}
