@@ -44,18 +44,28 @@
             <button onclick="handleSearch()" class="btn btn-active btn-primary">Search</button>
         </section>
 
-        <section id="phoneCard" class="container mx-auto grid md:grid-cols-2 lg:grid-cols-3 gap-6 mx-10">
-            <!-- <div class="card w-96 bg-base-100 shadow-xl">
-                <figure><img src="/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg" alt="Shoes" /></figure>
-                <div class="card-body">
-                  <h2 class="card-title">Shoes!</h2>
-                  <p>If a dog chews shoes whose shoes does he choose?</p>
-                  <div class="card-actions justify-end">
-                    <button class="btn btn-primary">Buy Now</button>
-                  </div>
+
+        <section class="mt-10">
+            <div id="loading-spinner" class="text-center my-48 hidden">
+                <span class="loading loading-ball loading-lg"></span>
+            </div>
+            <div id="phoneCard" class="container mx-auto grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <!-- <div class="card w-96 bg-base-100 shadow-xl">
+                    <figure><img src="/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg" alt="Shoes" /></figure>
+                    <div class="card-body">
+                      <h2 class="card-title">Shoes!</h2>
+                      <p>If a dog chews shoes whose shoes does he choose?</p>
+                      <div class="card-actions justify-end">
+                        <button class="btn btn-primary">Buy Now</button>
+                      </div>
+                    </div>
+                  </div> -->
                 </div>
-              </div> -->
+            <div class="show-all mx-auto text-center">
+                <button onclick="" id="showAllBtn" class="btn btn-active btn-primary mx-auto hidden">Show All</button>
+            </div>
         </section>
+        
 
     </main>
 
